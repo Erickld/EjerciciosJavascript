@@ -231,26 +231,22 @@ function peliculas (genero) {
  * 4. Pago de servicios
  * 
  * Segun sea la opcion indicada, imprimir en pantalla la accion a realizar
+ * Utilizar if/else
+ * 
  */
 
 function cajeroATM (opcion) {
 
-    switch (opcion) {
-        case 1:
-            console.log(`Ocpicón seleccionada: Retirar dinero`);
-            break;
-        case 2:
-            console.log(`Ocpicón seleccionada: Transferencia`);
-            break;
-        case 3:
-            console.log(`Ocpicón seleccionada: Deposito`);
-            break;
-        case 4:
-            console.log(`Ocpicón seleccionada: Pago de servicios`);
-            break;
-        default:
-            console.log(`Opción no encontrada en el cajero`);
-            break;
+    if (opcion == 1) {
+        console.log(`Ocpicón seleccionada: Retirar dinero`);
+    } else if (opcion == 2) {
+        console.log(`Ocpicón seleccionada: Transferencia`);
+    } else if (opcion == 3) {
+        console.log(`Ocpicón seleccionada: Deposito`);
+    } else if (opcion == 4) {
+        console.log(`Ocpicón seleccionada: Pago de servicios`);
+    } else {
+        console.log(`Opción no encontrada en el cajero`);
     }
 
 }
@@ -268,6 +264,8 @@ function cajeroATM (opcion) {
  * 3. A yenes japoneses
  * 4. A libra esterlina
  * 5. A franco suizo
+ * 
+ * Consideracion: estructura switch
  * 
  */
 
