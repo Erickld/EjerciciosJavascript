@@ -238,13 +238,13 @@ function peliculas (genero) {
 function cajeroATM (opcion) {
 
     if (opcion == 1) {
-        console.log(`Ocpicón seleccionada: Retirar dinero`);
+        console.log(`Opción seleccionada: Retirar dinero`);
     } else if (opcion == 2) {
-        console.log(`Ocpicón seleccionada: Transferencia`);
+        console.log(`Opción seleccionada: Transferencia`);
     } else if (opcion == 3) {
-        console.log(`Ocpicón seleccionada: Deposito`);
+        console.log(`Opción seleccionada: Deposito`);
     } else if (opcion == 4) {
-        console.log(`Ocpicón seleccionada: Pago de servicios`);
+        console.log(`Opción seleccionada: Pago de servicios`);
     } else {
         console.log(`Opción no encontrada en el cajero`);
     }
